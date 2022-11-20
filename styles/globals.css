@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,14 +17,48 @@ a {
 
 * {
   box-sizing: border-box;
+  transition: all ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.modern {
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 100;
+}
+
+.serif {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.logo {
+  font-family: 'DM Serif Display', serif;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
+
+.link-underline-black {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#000, #000);
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
+
+.link-underline:hover {
+  background-size: 100% 1px;
+  background-position: 0 100%
+}
+
+.link-underline-black:hover {
+  background-size: 100% 1px;
+  background-position: 0 100%
 }
