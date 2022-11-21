@@ -1,7 +1,7 @@
 const Services = () => (
     <div className="w-[100vw] h-full bg-[#F3F1EC] text-[#1E1E1E]">
         <div className="w-[100%] h-[100%] flex flex-col">
-            <div className="pl-[5vw] pt-[5vh] pb-[5vh]">
+            <div className="pl-[5vw] pb-[5vh]">
                 <div className="flex items-center space-x-4">
                 <div className="h-[0.5px] w-[40px] bg-[#1E1E1E]"></div>
                     <p className="uppercase modern text-md tracking-widest">maisons historiques</p>
@@ -10,7 +10,7 @@ const Services = () => (
             </div>
             <div className="px-[5vw] pb-[10vh]">
                 <ul className="flex flex-col sm:flex-row sm:justfiy-between">
-                    <div className="flex flex-col space-y-4">
+                    <div className="flex flex-col space-y-6">
                         <li className="flex flex-col text-left h-full items-left">
                             <h1 className="serif uppercase text-3xl sm:text-4xl">Consultation</h1>
                             <p className="serif italic text-2xl">concernant les souhaits de vente et/ou d’achat d’une maison historique</p>
@@ -28,7 +28,7 @@ const Services = () => (
                             <p className="serif italic text-2xl">et affichage sur Centris.ca et Realtor.ca</p>
                         </li>
                     </div>
-                    <div className="flex flex-col sm:justify-start sm:w-full sm:pt-0 sm:items-end sm:text-right space-y-4 pt-4">
+                    <div className="flex flex-col sm:justify-start sm:w-full sm:pt-0 sm:items-end sm:text-right space-y-6 pt-6">
                         <li className="flex flex-col sm:text-right text-left h-full items-left">
                             <h1 className="serif uppercase text-3xl sm:text-4xl">Commercialisation</h1>
                             <p className="serif italic text-2xl"> moyennant un réseau international de courtiers immobiliers et des réseaux sociaux</p>

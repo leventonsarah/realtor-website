@@ -31,9 +31,9 @@ const Slider = ({ slides }) => {
                 : 'opacity-0'
             }
           >
-              <img src="/images/icons/left-black.png"
+              <img src="/images/icons/left-white.png"
                 onClick={prevSlide}
-                className="absolute top-[50%] left-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[60px]"
+                className="absolute top-[50%] left-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[60px] box-shadow-xl"
               />
               {index === current && (
                 <img
@@ -42,9 +42,9 @@ const Slider = ({ slides }) => {
                   className='w-[100vw] h-[60vh] sm:h-[100vh] object-cover overflow-hidden'
                 />
               )}
-               <img src="/images/icons/right-black.png"
+               <img src="/images/icons/right-white.png"
                 onClick={nextSlide}
-                className="absolute top-[50%] right-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[60px]"
+                className="absolute top-[50%] right-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[60px] box-shadow-xl"
               />
             </div>
         );

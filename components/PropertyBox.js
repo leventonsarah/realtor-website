@@ -3,7 +3,7 @@ import NextLink from 'next/link';
 const PropertyBox = ({ id, image, city, title, price, rooms, bathrooms, size }) => {
     return (
         <div>
-            <div className="w-full h-fit p-8">
+            <div className="sm:w-[90%] w-full h-fit p-8">
                 <NextLink href={`/properties/[id]`} as={`/properties/${id}`} passHref>
                     <img src={image} alt="house" className="w-full h-full"/>
                     <div className="space-y-2">

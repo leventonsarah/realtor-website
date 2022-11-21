@@ -19,7 +19,7 @@ const Properties = ({PropertiesLists}) => {
                 </div>
                 <h1 className="serif uppercase text-4xl sm:text-6xl">propriétés à vendre</h1>
             </div>
-            <div className="flex flex-wrap justify-center ">
+            <div className="flex flex-wrap justify-center">
             {PropertiesLists.map(PropertiesList => (
                     <PropertyBox key={PropertiesList.id} {...PropertiesList}></PropertyBox>
                   ))}

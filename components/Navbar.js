@@ -38,11 +38,11 @@ const Navbar = ({ linktoLeft, linktoRight, linkLeft1, linkLeft2, linkRight1, lin
     }
 
     return(
-        <div className="w-[100vw] h-[13vh] absolute z-10">
-            <div className="absolute z-0 text-left left-8 sm:left-0 sm:text-center w-[100vw] text-white">
+        <div className="w-[100%] h-[13vh] absolute z-10 m-0 p-0">
+            <div className="absolute z-0 text-left left-8 sm:left-0 sm:text-center w-[100vw] text-white overflow-x-hidden">
                 <p className="uppercase logo pt-7 text-4xl tracking-wider">JL</p>
             </div>
-            <div className="flex justify-between p-8 tracking-wide text-white z-10"> 
+            <div className="flex justify-between p-8 tracking-wide text-white z-10 overflow-x-hidden"> 
                 <div className="sm:flex space-x-8 hidden z-10 link-underline leading-tight"> 
                     <Link href={linktoLeft} className="modern uppercase cursor-pointer text-left">{linkLeft1}<br /><span className="font-light">{linkLeft2}</span></Link>
                 </div>
@@ -58,12 +58,12 @@ const Navbar = ({ linktoLeft, linktoRight, linkLeft1, linkLeft2, linkRight1, lin
                     )}
             </div>
             <div className={ nav ? 
-                "z-40 absolute h-screen w-screen top-0 left-0 right-0 bottom-0 opacity-1 bg-black/90 duration-500 ease-in-out"
-                 : "-z-10 absolute h-screen w-screen top-0 left-0 right-0 bottom-0 opacity-0 bg-black/90 duration-500 ease-in-out"} >
+                "z-40 absolute h-[100vh] w-[100%] top-0 left-0 right-0 bottom-0 opacity-1 bg-black/90 duration-500 ease-in-out overflow-hidden m-0 p-0"
+                 : "-z-10 absolute h-[100vh] w-[100%] top-0 left-0 right-0 bottom-0 opacity-0 bg-black/90 duration-500 ease-in-out overflow-hidden m-0 p-0"} >
                 <div onClick={handleNav}>
                     <CrossIcon />
                 </div>
-                <ul className="space-y-10 uppercase text-white text-2xl flex flex-col items-start pl-[40px] mt-[10vh]">
+                <ul className="space-y-10 uppercase text-white text-2xl flex flex-col items-start pl-[40px] mt-[10vh] overflow-x-hidden">
                     <li onClick={handleNav} className="serif text-4xl">
                         <Link href="/">accueil</Link>
                     </li>
