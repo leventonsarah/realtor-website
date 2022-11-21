@@ -7,7 +7,7 @@ const Promo = () => {
                     <h1 className="uppercase serif text-4xl sm:text-6xl pt-8">joel leventon</h1>
                     <p className="uppercase modern text-lg sm:text-xl tracking-widest pb-8">courtier immobilier résidentiel</p>
                     <a href="mailto:joel.leventon@hotmail.com" className="w-fit serif italic text-2xl sm:text-4xl link-underline">joel.leventon@outlook.com</a>
-                    <a href="tel:514-708-9291" className="w-fit serif italic link-underline pt-2 text-2xl sm:text-4xl mb-8">(514) 708-9291</a>
+                    <a href="tel:514-708-9291" className="w-fit serif italic link-underline pt-2 text-2xl sm:text-4xl mb-8">+1 (514) 708-9291</a>
                 </div>
             </div>
         </div>
