@@ -15,7 +15,7 @@ const HistoricHero = () => {
                     
                     <div className="bottom-8 absolute z-10 text-white text-center">
                         <div className="animate-bounce">⬩</div>
-                        <a href="tel:514-708-9291" className="modern uppercase tracking-widest link-underline pt-2">(514) 708-9291</a>
+                        <a href="tel:514-708-9291" className="modern uppercase tracking-widest link-underline pt-2">+1 (514) 708-9291</a>
                     </div>
                 </div>
             </div>
