@@ -13,10 +13,10 @@ const Services = () => (
             </div>
             <div className="px-[5vw] pb-[10vh]">
                 <div className="bg-[#1E1E1E] flex flex-col sm:flex-row w-full h-[80vh] sm:h-[40vh] drop-shadow-lg">
-                    <div className="w-full h-full flex justify-center items-center">
+                    <div className="sm:w-[50%] w-full h-full flex justify-center items-center">
                         <ServicesSlider slides={services}/>
                     </div>
-                    <div>
+                    <div className="sm:w-[50%]">
                         <img src="/images/services.jpg" className="w-full h-full object-cover"></img>
                     </div>
                 </div>
