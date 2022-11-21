@@ -155,7 +155,7 @@ export const properties = [
         rooms: "3",
         bathrooms: "3.5",
         parking: "1",
-        status: "?",
+        status: "à vendre",
         description: "Condo lumineux et spacieux avec cuisine rénovée. Cet appartement offre 1689 pieds carrés d'espace habitable, un grand balcon pouvant accueillir une table de bonne taille pour boire votre café du matin tout en profitant de la vue bleue sur l'océan et la marina. La cuisine rénovée a beaucoup de nouvelles armoires de rangement et un grand îlot pour un espace de comptoir supplémentaire, idéal pour la préparation des aliments et les réunions de famille. L'orientation de l'appartement permet à la lumière naturelle d'éclairer les chambres en apportant la beauté de l'extérieur dans les pièces. Une piscine propre et bien entretenue se trouve à quelques pas du bâtiment et la plage est accessible à pied. Vista Mar Golf, Beach and Marina est un projet résidentiel situé dans la communauté balnéaire de San Carlos avec des équipements exquis pour ses résidents, tels qu'un accès direct à une plage de sable et de baignade. Un parcours de golf 18 trous pour les amateurs de golf. Une marina de classe mondiale avec 1200 pieds de quais pour Mega Yachts, 2 restaurants à l'intérieur du projet et une petite épicerie."
     },
     {

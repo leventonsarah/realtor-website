@@ -1,5 +1,7 @@
 import { properties } from '../../data';
 import Slider from '../../components/Slider';
+import Promo from '../../components/Promo';
+import Footer from '../../components/Footer';
 
 export const getStaticProps = async ({ params }) => {
     const PropertiesList = properties.filter((p) => p.id.toString() === params.id);
@@ -75,7 +77,7 @@ const Id = ({ property }) => (
                     </div>
                 </div>
             </div>
-            <div className='w-[100vw] flex flex-col sm:flex-row pt-10 px-[5vw] justify-center items-center pb-[5vh]'>
+            <div className='w-[100vw] flex flex-col sm:flex-row pt-10 px-[5vw] justify-center items-center pb-[10vh]'>
                 <div className='sm:w-[50%]'>
                     <img src={property.descImg} className="w-full h-[100%] object-cover shadow-md" />
                 </div>
@@ -87,7 +89,10 @@ const Id = ({ property }) => (
             </div>
             
         </div>
+        <Promo />
+        <Footer />
         </div>
+        
 )
 
 export default Id;

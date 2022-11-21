@@ -2,6 +2,7 @@ import HistoricHero from "../components/HistoricHero"
 import Approach from "../components/Approach"
 import Services from "../components/Services"
 import About from "../components/About"
+import Footer from "../components/Footer"
 
 export default function Historic() {
     return (
@@ -10,6 +11,7 @@ export default function Historic() {
         <Approach />
         <Services />
         <About />
+        <Footer />
       </>
     )
   }
