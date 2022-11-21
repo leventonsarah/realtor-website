@@ -33,46 +33,46 @@ const Id = ({ property }) => (
                 </div>
                 <h1 className="serif uppercase text-3xl sm:text-6xl pr-4">{property.title}</h1>
                 <p className="modern text-2xl">{property.price}</p>
-                <p className='serif italic text-xl'>*Le prix pourrait être ajusté en fonction du changement du taux d'échange.</p>
+                <p className='serif italic text-xl pr-4'>*Le prix pourrait être ajusté en fonction du changement du taux d'échange.</p>
             </div>
             <div className='w-[100vw] flex flex-col sm:flex-row pt-10 px-[5vw] sm:space-x-[5vw] items-start justify-center space-y-20 sm:space-y-0 pb-[5vh]'>
-                <div className='w-[95%] sm:w-[50%] space-y-2'>
+                <div className='w-[100%] sm:w-[50%] space-y-2'>
                     <p className='uppercase modern tracking-widest'>détails</p>
                     <div className='w-[100%] bg-[#1E1E1E] h-[0.5px]'></div>
                     <div className='flex flex-col items-center w-[100%]'>
                         <div className='flex justify-between w-[100%]'>
-                            <p className='serif uppercase text-3xl'>terrain</p>
-                            <p className='modern text-2xl'>{property.landSize}</p>
+                            <p className='serif uppercase text-2xl sm:text-3xl'>terrain</p>
+                            <p className='modern text-xl sm:text-2xl'>{property.landSize}</p>
                         </div>
                         <div className='flex justify-between w-[100%]'>
-                            <p className='serif uppercase text-3xl'>maison</p>
-                            <p className='modern text-2xl'>{property.houseSize}</p>
+                            <p className='serif uppercase text-2xl sm:text-3xl'>maison</p>
+                            <p className='modern text-xl sm:text-2xl'>{property.houseSize}</p>
                         </div>
                         <div className='flex justify-between w-[100%]'>
-                            <p className='serif uppercase text-3xl'>frais mensuels</p>
-                            <p className='modern text-2xl'>{property.HOA}</p>
+                            <p className='serif uppercase text-2xl sm:text-3xl'>frais mensuels</p>
+                            <p className='modern text-xl sm:text-2xl'>{property.HOA}</p>
                         </div>
                         <div className='flex justify-between w-[100%]'>
-                            <p className='serif uppercase text-3xl'>statut</p>
-                            <p className='modern text-2xl uppercase'>{property.status}</p>
+                            <p className='serif uppercase text-2xl sm:text-3xl'>statut</p>
+                            <p className='modern text-xl sm:text-2xl uppercase'>{property.status}</p>
                         </div>
                     </div>
                 </div>
-                <div className='w-[95%] sm:w-[50%] space-y-2'>
+                <div className='w-[100%] sm:w-[50%] space-y-2'>
                     <p className='uppercase modern tracking-widest text-right'>caractéristiques</p>
                     <div className='w-[100%] bg-[#1E1E1E] h-[0.5px]'></div>
                     <div className='flex flex-col items-center w-[100%]'>
                         <div className='flex justify-between w-[100%]'>
-                            <p className='serif uppercase text-3xl'>chambres</p>
-                            <p className='modern text-3xl'>{property.rooms}</p>
+                            <p className='serif uppercase text-2xl sm:text-3xl'>chambres</p>
+                            <p className='modern text-xl sm:text-2xl'>{property.rooms}</p>
                         </div>
                         <div className='flex justify-between w-[100%]'>
-                            <p className='serif uppercase text-3xl'>salles de bain</p>
-                            <p className='modern text-3xl'>{property.bathrooms}</p>
+                            <p className='serif uppercase text-2xl sm:text-3xl'>salles de bain</p>
+                            <p className='modern text-xl sm:text-2xl'>{property.bathrooms}</p>
                         </div>
                         <div className='flex justify-between w-[100%]'>
-                            <p className='serif uppercase text-3xl'>parking</p>
-                            <p className='modern text-3xl'>{property.parking}</p>
+                            <p className='serif uppercase text-2xl sm:text-3xl'>parking</p>
+                            <p className='modern text-xl sm:text-2xl'>{property.parking}</p>
                         </div>
                     </div>
                 </div>

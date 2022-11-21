@@ -12,8 +12,8 @@ const Services = () => (
                 <h1 className="serif uppercase text-4xl sm:text-6xl">nos services</h1>
             </div>
             <div className="px-[5vw] pb-[10vh]">
-                <div className="bg-[#1E1E1E] flex flex-col sm:flex-row w-full h-[80vh] sm:h-[40vh]">
-                    <div className="w-full h-full flex justify-center items-center ">
+                <div className="bg-[#1E1E1E] flex flex-col sm:flex-row w-full h-[80vh] sm:h-[40vh] drop-shadow-lg">
+                    <div className="w-full h-full flex justify-center items-center">
                         <ServicesSlider slides={services}/>
                     </div>
                     <div>

@@ -17,8 +17,8 @@ const ServicesSlider = ({ slides }) => {
   }
 
   return (
-    <div id='gallery' className="w-full h-auto">
-      <div className='relative flex justify-center items-center'>
+    <div id='gallery' className="w-full h-[60%] sm:h-auto">
+      <div className='relative h-full flex justify-center items-center'>
 
       {slides.map((slide, index) => {
         return (
@@ -26,23 +26,23 @@ const ServicesSlider = ({ slides }) => {
             key={index}
             className={
               index === current
-                ? 'opacity-[1] ease-in duration-100'
+                ? 'opacity-[1] ease-in duration-500'
                 : 'opacity-0'
             }
           >
               <img src="/images/icons/left-white.png"
                 onClick={prevSlide}
-                className="absolute top-[30%] left-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[50px]"
+                className="absolute rotate-90 sm:rotate-0 left-[45%] top-0 sm:top-[30%] sm:left-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[50px]"
               />
               {index === current && (
                 <div className='flex flex-col items-center text-white'>
                     <h1 className='serif uppercase text-3xl sm:text-4xl'>{slide.title}</h1>
-                    <p className='serif italic text-xl sm:text-2xl text-center w-[70%] pt-4'>{slide.desc}</p>
+                    <p className='serif italic text-xl sm:text-2xl text-center sm:w-[70%] w-[80%] pt-4'>{slide.desc}</p>
                 </div>
               )}
                <img src="/images/icons/right-white.png"
                 onClick={nextSlide}
-                className="absolute top-[30%] right-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[50px]"
+                className="absolute rotate-90 sm:rotate-0 top-[90%] sm:top-[30%] right-[45%] sm:right-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[50px]"
               />
             </div>
         );

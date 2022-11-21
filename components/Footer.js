@@ -5,9 +5,9 @@ const Footer = () => {
         <div className="w-[100vw] h-fit bg-[#F3F1EC]">
             <div className="w-[100%] h-[100%]">
                 <div className="flex w-[100%] justify-center items-center text-center pb-[2vh] pt-[5vh] px-[5vw]">
-                    <div className="h-[1px] w-full bg-[#1E1E1E]"></div>
+                    <div className="h-[1px] w-full bg-[#1E1E1E]/20"></div>
                     <p className="uppercase logo text-4xl tracking-wider w-fit px-10">JL</p>
-                    <div className="h-[1px] w-full bg-[#1E1E1E]"></div>
+                    <div className="h-[1px] w-full bg-[#1E1E1E]/20"></div>
                 </div>
                 <div className="w-[100%] h-[100%] flex flex-col sm:flex-row justify-between">
                     <div className="px-[5vw] z-10">
@@ -17,15 +17,15 @@ const Footer = () => {
                                 <Link href="/" className="link-underline-black">accueil</Link>
                             </li>
                             <li className="modern">
-                                <Link href="/International">propriétés à<br /><span className="font-light link-underline-black">l'internationale</span></Link>
+                                <Link href="/International">propriétés à<br /><span className="link-underline-black">l'internationale</span></Link>
                             </li>
                             <li className="modern">
-                                <Link href="/Historic" className="modern uppercase cursor-pointer text-right">maisons<br /><span className="font-light link-underline-black">historiques</span></Link>
+                                <Link href="/Historic" className="modern uppercase cursor-pointer text-right">maisons<br /><span className="link-underline-black">historiques</span></Link>
                             </li>
                          </ul>
                     </div>
                     <div className="sm:absolute sm:w-[100%] flex flex-col justify-center items-center space-y-4 pt-10 sm:pt-0">
-                        <div className="h-[60px] w-[1px] bg-[#1E1E1E]"></div>
+                        <div className="h-[60px] w-[1px] bg-[#1E1E1E]/20"></div>
                         <a href="https://www.facebook.com/leventon.joel/" target="_blank"> 
                             <img src="/images/icons/fb-icon.png" className="w-[50px]"/>
                         </a>

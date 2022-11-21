@@ -17,7 +17,7 @@ const Properties = ({PropertiesLists}) => {
                     <div className="h-[0.5px] w-[40px] bg-[#1E1E1E]"></div>
                     <p className="uppercase modern text-md tracking-widest">à l'internationale</p>
                 </div>
-                <h1 className="serif uppercase text-4xl sm:text-6xl">propriétés à vendre</h1>
+                <h1 className="serif uppercase text-4xl sm:text-6xl pr-4">propriétés à vendre</h1>
             </div>
             <div className="w-full sm:pl-[5vw] sm:pr-[5vw] flex flex-wrap flex-basis-[50%]">
             {PropertiesLists.map(PropertiesList => (
