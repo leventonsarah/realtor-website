@@ -29,19 +29,19 @@ const Services = () => (
                         </li>
                     </div>
                     <div className="flex flex-col sm:justify-start sm:w-full sm:pt-0 sm:items-end sm:text-right space-y-6 pt-6">
-                        <li className="flex flex-col sm:text-right text-left h-full items-left">
+                        <li className="flex flex-col sm:text-right text-left h-full sm:items-end sm:justify-end">
                             <h1 className="serif uppercase text-3xl sm:text-4xl">Commercialisation</h1>
-                            <p className="serif italic text-2xl"> moyennant un réseau international de courtiers immobiliers et des réseaux sociaux</p>
+                            <p className="serif italic text-2xl sm:w-[60%]"> moyennant un réseau international de courtiers immobiliers et des réseaux sociaux</p>
                         </li>
-                        <li className="flex flex-col sm:text-right text-left h-full items-left">
+                        <li className="flex flex-col sm:text-right text-left h-full">
                             <h1 className="serif uppercase text-3xl sm:text-4xl">Préparation</h1>
                             <p className="serif italic text-2xl">et encadrement des visites</p>
                         </li>
-                        <li className="flex flex-col sm:text-right text-left h-full items-left">
+                        <li className="flex flex-col sm:text-right text-left h-full">
                             <h1 className="serif uppercase text-3xl sm:text-4xl">Conseil</h1>
                             <p className="serif italic text-2xl">dans la démarche de réception d’offres et de négociations</p>
                         </li>
-                        <li className="flex flex-col sm:text-right text-left h-full items-left">
+                        <li className="flex flex-col sm:text-right text-left h-full">
                             <h1 className="serif uppercase text-3xl sm:text-4xl">Accompagnement</h1>
                             <p className="serif italic text-2xl"> jusqu’à la finalisation de la vente chez le notaire</p>
                         </li>
