@@ -7,7 +7,7 @@ const PropertyBox = ({ id, image, city, title, price, rooms, bathrooms, size }) 
                 <NextLink href={`/properties/[id]`} as={`/properties/${id}`} passHref>
                     <img src={image} alt="house" className="w-full h-full"/>
                     <div className="space-y-2">
-                        <div className="flex justify-between uppercase modern pt-4 text-xl">
+                        <div className="flex justify-between uppercase modern pt-4 text-lg sm:text-xl">
                             <p>{city}</p>
                             <p>{price}</p>
                         </div>

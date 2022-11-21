@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { properties } from '../data';
+import { services } from '../data';
 
-const Slider = ({ slides }) => {
+const ServicesSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -17,8 +17,8 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <div id='gallery' className="w-[100vw] h-auto">
-      <div className='relative flex justify-center'>
+    <div id='gallery' className="w-full h-auto">
+      <div className='relative flex justify-center items-center'>
 
       {slides.map((slide, index) => {
         return (
@@ -32,18 +32,17 @@ const Slider = ({ slides }) => {
           >
               <img src="/images/icons/left-white.png"
                 onClick={prevSlide}
-                className="absolute top-[50%] left-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[60px] box-shadow-xl"
+                className="absolute top-[30%] left-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[50px]"
               />
               {index === current && (
-                <img
-                  src={slide.img}
-                  alt='/'
-                  className='w-[100vw] h-[60vh] sm:h-[100vh] object-cover overflow-hidden'
-                />
+                <div className='flex flex-col items-center text-white'>
+                    <h1 className='serif uppercase text-3xl sm:text-4xl'>{slide.title}</h1>
+                    <p className='serif italic text-xl sm:text-2xl text-center w-[70%] pt-4'>{slide.desc}</p>
+                </div>
               )}
                <img src="/images/icons/right-white.png"
                 onClick={nextSlide}
-                className="absolute top-[50%] right-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[60px] box-shadow-xl"
+                className="absolute top-[30%] right-[30px] cursor-pointer select-none z-[2] h-[30px] sm:h-[50px]"
               />
             </div>
         );
@@ -53,4 +52,4 @@ const Slider = ({ slides }) => {
   );
 };
 
-export default Slider;
+export default ServicesSlider;

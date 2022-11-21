@@ -39,7 +39,7 @@ const Navbar = ({ linktoLeft, linktoRight, linkLeft1, linkLeft2, linkRight1, lin
 
     return(
         <div className="w-full h-[13vh] absolute z-10 m-0 p-0">
-            <div className="absolute z-0 text-left left-8 sm:left-0 sm:text-center w-full text-white overflow-x-hidden">
+            <div className="absolute z-0 text-left pl-8 sm:left-0 sm:text-center w-full text-white overflow-x-hidden">
                 <p className="uppercase logo pt-7 text-4xl tracking-wider">JL</p>
             </div>
             <div className="flex justify-between p-8 tracking-wide text-white z-10 overflow-x-hidden"> 

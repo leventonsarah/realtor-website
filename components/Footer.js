@@ -37,10 +37,10 @@ const Footer = () => {
                         <ul className="space-y-4 uppercase text-[#1E1E1E] text-2xl flex flex-col justify-center text-center sm:text-right pt-10 sm:pt-0 ">
                             <li className="serif text-4xl">nous joindre</li>
                             <li className="modern">
-                                <a href="mailto:joel.leventon@hotmail.com" className="link-underline-black">joel.leventon@outloook.com</a>
+                                <a href="mailto:joel.leventon@hotmail.com" className="link-underline-black text-xl sm:text-2xl">joel.leventon@outloook.com</a>
                             </li>
                             <li className="modern">
-                                <a href="tel:514-708-9291" className="link-underline-black">+1 (514) 708-9291</a>
+                                <a href="tel:514-708-9291" className="link-underline-black text-xl sm:text-2xl">+1 (514) 708-9291</a>
                             </li>
                             <li className="w-[100%] flex justify-center sm:justify-end items-center space-x-4">
                             <a href="https://www.realtor.ca/courtier-immobilier/2090924/joel-leventon-2282-rue-goyer--montr%C3%A9al-qu%C3%A9bec-h3s1g9#office=leventon&page=1&sort=11-A" target="_blank"> 

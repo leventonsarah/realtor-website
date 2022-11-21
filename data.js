@@ -21,7 +21,7 @@ export const properties = [
           },
         ],
         title: "Terrain en Montagne",
-        city: "El Salto, Boquete",
+        city: "Boquete, Panama",
         location:  "https://goo.gl/maps/5rraywMB8ZJQEWJh9",
         price: "$354,000 CAD*",
         size:  "75347.3 pi²",
@@ -32,7 +32,7 @@ export const properties = [
         houseSize: "-",
         rooms: "-",
         bathrooms: "-",
-        description: "Cette propriété est située à El Salto Boquete, un quartier qui gagne en popularité en raison de sa proximité avec le centre-ville de Boquete (moins de 10 minutes en voiture). Le terrain offre une vue exceptionnelle sur la montagne et un accès facile. Toutes les routes principales menant à El Salto sont goudronnées et en excellent état. Il y a accès à l'électricité, à l'eau, à Internet et au câble. La propriété offre une vue imprenable sur les montagnes et l'air pur de la montagne. En même temps, il n'est qu'à une courte distance en voiture du centre-ville de Boquete où se trouvent les magasins et les restaurants. Grâce à son emplacement, le terrain est idéal pour la construction d'une maison ou pour un projet de construction de biens locatifs."
+        description: "Cette propriété est située à El Salto, Boquete, un quartier qui gagne en popularité en raison de sa proximité avec le centre-ville de Boquete (moins de 10 minutes en voiture). Le terrain offre une vue exceptionnelle sur la montagne et un accès facile. Toutes les routes principales menant à El Salto sont goudronnées et en excellent état. Il y a accès à l'électricité, à l'eau, à Internet et au câble. La propriété offre une vue imprenable sur les montagnes et l'air pur de la montagne. En même temps, il n'est qu'à une courte distance en voiture du centre-ville de Boquete où se trouvent les magasins et les restaurants. Grâce à son emplacement, le terrain est idéal pour la construction d'une maison ou pour un projet de construction de biens locatifs."
     },
     {
         id: 2,
@@ -147,7 +147,7 @@ export const properties = [
          
         ],
         title: "Condo à Vista Mar Residential",
-        city: "San Carlos",
+        city: "San Carlos, Panama",
         location:  "https://goo.gl/maps/sGt8mw5269CLzfgU7",
         price: "$409,256 CAD*",
         HOA: "$300 USD",
@@ -209,7 +209,7 @@ export const properties = [
           },
         ],
         title: "Jolie Maison à Villa Santa Irene",
-        city: "David",
+        city: "David, Panama",
         location:  "https://goo.gl/maps/m1T7UFhLSyf5evLw7",
         price: "$364,000 CAD*",
         landSize: "8611.13 pi²",
@@ -220,7 +220,7 @@ export const properties = [
         parking: "2",
         rooms: "3",
         bathrooms: "3.5",
-        description: "Maison à vendre à Villa Santa Irene Communauté exclusive de résidences luxueuses à 15 minutes du centre-ville de David. Cette belle communauté a accès à une zone de 4 hectares de parc naturel protégé avec des arbres, des oiseaux et de beaux sentiers, mais en même temps à proximité de centres de services modernes, d'hôpitaux, de centres commerciaux, d'écoles."
+        description: "Maison à vendre à Villa Santa Irene Communauté exclusive de résidences luxueuses, à 15 minutes du centre-ville de David. Cette belle communauté a accès à une zone de 4 hectares de parc naturel protégé avec des arbres, des oiseaux et de beaux sentiers, mais en même temps à proximité de centres de services modernes, d'hôpitaux, de centres commerciaux, d'écoles."
     },
     {
         id: 4,
@@ -310,7 +310,7 @@ export const properties = [
           },
         ],
         title: "Appartement avec Vues sur la Forêt",
-        city: "Clayton",
+        city: "Clayton, Panama",
         location:  "https://goo.gl/maps/ppa1LjgJc1nrki3Q9",
         price: "$440,000 CAD*",
         HOA: "$300 USD",
