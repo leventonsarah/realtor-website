@@ -322,7 +322,105 @@ export const properties = [
         rooms: "3",
         bathrooms: "3.5",
         description: "Un endroit pour se détendre et profiter d'un style de vie paisible, mais en même temps très proche des commodités de la ville. Cet appartement est situé à moins de 15 minutes en voiture des commerces, des cliniques, des restaurants et de l'aéroport domestique. Le parc est à distance de marche du bâtiment, le parc dispose d'un sentier pédestre, de terrains de baseball et de football. Les vues verdoyantes depuis les chambres et le balcon vous permettront de vous sentir énergisé et calme, le salon spacieux est idéal pour les réunions de famille ou les divertissements."
-    }
+    },
+    {
+        id: 5,
+        image: "/images/chame.jpg",
+        descImg: "/images/chame-img/chame3.jpg",
+        slides: [
+            {
+                img: "/images/chame-img/chame8.jpg",
+            },
+            {
+                img: "/images/chame-img/chame3.jpg",
+            },
+            {
+                img: "/images/chame-img/chame4.jpg",
+            },
+            {
+                img: "/images/chame-img/chame5.jpg",
+            },
+            {
+                img: "/images/chame-img/chame6.jpg",
+            },
+            {
+                img: "/images/chame-img/chame7.jpg",
+            },
+            {
+                img: "/images/chame-img/chame2.jpg",
+            },
+            {
+                img: "/images/chame-img/chame9.jpg",
+            },
+            {
+                img: "/images/chame-img/chame10.jpg",
+            },
+            {
+                img: "/images/chame-img/chame11.jpg",
+            },
+            {
+                img: "/images/chame-img/chame12.jpg",
+            },
+            {
+                img: "/images/chame-img/chame13.jpg",
+            },
+            {
+                img: "/images/chame-img/chame14.jpg",
+            },
+            {
+                img: "/images/chame-img/chame15.jpg",
+            },
+            {
+                img: "/images/chame-img/chame16.jpg",
+            },
+            {
+                img: "/images/chame-img/chame17.jpg",
+            },
+            {
+                img: "/images/chame-img/chame18.jpg",
+            },
+            {
+                img: "/images/chame-img/chame19.jpg",
+            },
+            {
+                img: "/images/chame-img/chame20.jpg",
+            },
+            {
+                img: "/images/chame-img/chame21.jpg",
+            },
+            {
+                img: "/images/chame-img/chame22.jpg",
+            },
+            {
+                img: "/images/chame-img/chame23.jpg",
+            },
+            {
+                img: "/images/chame-img/chame24.jpg",
+            },
+            {
+                img: "/images/chame-img/chame25.jpg",
+            },
+            {
+                img: "/images/chame-img/chame26.jpg",
+            },
+            {
+                img: "/images/chame-img/chame28.jpg",
+            }
+        ],
+        title: "Maison à proximité de la plage",
+        city: "Punta Chame, Panama",
+        location:  "https://goo.gl/maps/iexQjXgaNtgZqXJm9",
+        price: "$268 000 CAD*",
+        size:  "370 m²",
+        landSize: "1,250 m²",
+        HOA: "-",
+        status: "à vendre",
+        parking: "4",
+        houseSize: "370 m²",
+        rooms: "3",
+        bathrooms: "2",
+        description: "Cette maison est située à Punta Chame, Panama Oeste. En voiture, elle se trouve à 12 minutes des commerces et à 15 minutes de la plage! Elle comprend réservoir d'eau filtrée, générateur électrique, portail électrique, portes blindées et 4 espaces de parking couverts."
+    },
   ];
   
   
